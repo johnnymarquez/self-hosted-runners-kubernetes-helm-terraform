@@ -1,0 +1,15 @@
+actions-runner-controller:
+  tolerations:
+    - key: "Actions"
+      operator: "Equal"
+      value: "true"
+      effect: "NoSchedule"
+  githubWebhookServer:
+    tolerations:
+      - key: "Actions"
+        operator: "Equal"
+        value: "true"
+        effect: "NoSchedule"
+  authSecret:
+    enabled: true
+    create: false
