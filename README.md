@@ -21,3 +21,7 @@ Subdirectory /env contain individual values for different environments if requir
 
 Example toleration values are set up in Values.yaml if you need to specify a node to place the controller.
 
+## Terraform
+
+For a full lifecycle GitOps approach, inside ```Terraform``` directory the necessary code is being stored to standardize
+the architecture of this project. WIP.
